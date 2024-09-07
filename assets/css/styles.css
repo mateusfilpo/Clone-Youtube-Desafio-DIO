@@ -1,0 +1,194 @@
+@import url('reset.css');
+
+body {
+    background: #F9F9F9;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    padding: 10px 24px 10px 24px;
+    width: 100vw;
+}
+
+#menu .logo-options {
+    display: flex;
+    width: 146px;
+    height: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-pesquisa {
+    display: flex;
+    align-items: center;
+}
+
+#menu .menu-pesquisa input {
+    width: 348px;
+    height: 40px;
+    border-radius: 0;
+    border: 1px solid #CCCCCC;
+}
+
+#menu .menu-pesquisa .pesquisar {
+    width: 57px;
+    height: 40px;
+    border-radius: 0;
+    border: 1px solid #CCCCCC;
+}
+
+#menu .profile-options {
+    width: 130px;
+    height: 34px;
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 20px;
+}
+
+.video-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 952px;
+    height: 746px;
+}
+
+.video-main .titulo-video {
+    margin-top: 8px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.videos-list {
+    display: flex;
+}
+
+.thumbs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 160px;
+    height: 938px;
+}
+
+.desc-videos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 0px;
+    margin-left: 20px;
+    color: white;
+    width: 196px;
+    height: 938px;
+}
+
+.desc-videos p {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.desc-videos span {
+    color: #515151;
+    font-size: 12px;
+}
+
+.video-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 902px;
+    height: 42px;
+    margin-top: 10px;
+}
+
+.info-canal {
+    width: 160px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.nome-inscritos-canal {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.nome-inscritos-canal .nome-canal {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nome-inscritos-canal .inscritos-canal {
+    font-size: 13px;
+}
+
+.botao-like {
+    display: flex;
+    align-items: center;
+}
+
+.numeros-like {
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.botao-deslike {
+    display: flex;
+    align-items: center;
+}
+
+.numeros-deslike {
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.botao-compartilhar {
+    display: flex;
+    align-items: center;
+}
+
+.texto-compartilhar {
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.botao-download {
+    display: flex;
+    align-items: center;
+}
+
+.texto-download {
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.visualizacoes-data-video {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 13px;
+}
+
+.desc-video {
+    margin-top: 13px;
+    width: 510px;
+    color: #515151;
+    font-size: 14px;
+}
